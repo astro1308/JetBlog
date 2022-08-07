@@ -26,4 +26,4 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
-Route::view('login','login');
+// Route::view('login','login');
